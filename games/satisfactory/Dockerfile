@@ -7,3 +7,4 @@ RUN steamcmd +force_install_dir . +login anonymous +app_update 1690800 -beta exp
 
 CMD ["bash", "FactoryServer.sh"]
 EXPOSE 15777
+VOLUME /home/satisfactory/.config/Epic/FactoryGame/Saved/SaveGames
